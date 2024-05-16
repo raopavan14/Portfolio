@@ -1,0 +1,39 @@
+.about-e {
+  background-color: white;
+  padding-top: 0.8rem;
+  border-radius: 20px;
+  padding-block-end: 1rem;
+  height: 475px;
+}
+
+.about-img {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+.service-box {
+  border-radius: 20px;
+}
+
+.card {
+  box-shadow: 2px 3px 5px rgb(204, 204, 204);
+  border-radius: 1rem;
+}
+
+.box-shadow {
+  box-shadow: 2px 3px 5px rgb(204, 204, 204);
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: #333; /* change background color on hover */
+  color: #fff; /* change text color on hover */
+  transform: translateY(-2px); /* add a slight upward movement on hover */
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.lead {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 100;
+}/*# sourceMappingURL=port.css.map */
