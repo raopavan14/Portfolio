@@ -45,3 +45,38 @@ button:hover {
 }
 
 
+@keyframes colorChange {
+    0% { 
+      color: red;
+      transform: translateX(0);
+    }
+    25% {
+      color: blue;
+      transform: translateX(50px);
+    }
+    50% {
+      color: green;
+      transform: translateX(100px);
+    }
+    75% {
+      color: yellow;
+      transform: translateX(50px);
+    }
+    100% {
+      color: red;
+      transform: translateX(0);
+    }
+  }
+  
+  .animated-text {
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+    
+    
+    animation: colorChange 5s infinite; /* Change color over 5 seconds, repeat infinitely */
+    -webkit-animation: colorChange 5s infinite; /* Safari and Chrome */
+    -moz-animation: colorChange 5s infinite; /* Firefox */
+    -o-animation: colorChange 5s infinite; /* Opera */
+  }
